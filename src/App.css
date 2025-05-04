@@ -1,0 +1,495 @@
+ body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+}
+
+.navbar{
+  background-color: black;
+}
+.navbar-nav
+{
+  margin-left: 500px; 
+}
+ .nav-link 
+{
+  margin-left: 40px;
+
+}
+.nav-link:hover{
+  background-color:darkolivegreen;
+  color: #000;
+}
+.fa-brands {
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.firstView{
+  width: 100%;
+  height: 650px;
+  border: 1px solid #000;
+  background-image: url(./assets/Car.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.headingAbout
+{
+  margin-left: 550px;
+  padding-top: 130px ;
+}
+.headingAbout p{
+  font-size: 80px;
+  font-weight:900;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttonsign
+{
+  margin-left: 560px;
+  margin-top: 50px;
+
+}
+input{
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  margin: 20px;
+
+}
+#signbut
+{
+  margin-left: 22px;
+  color: white;
+  border-style: none;
+ background-color:black;
+}
+.whychoose
+{
+  width: 100%;
+  height: 600px;
+}
+.whychoose h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.whychoose h3{
+  text-align: center;
+  margin-top: 50px;
+}
+.cards
+{
+  width: 100%;
+  height: 320px;
+  margin-top: 80px;
+  padding-left: 150px;
+  display: flex;
+}
+.cards .card{
+
+  width: 270px;
+  height: 370px;
+  text-align: justify;
+  margin-right: 100px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  
+}
+.card h3{
+  padding-right: 20px;
+}
+.card p{
+  text-align:center;
+  margin-top: 15px;
+}
+.card .fa-solid 
+{
+  margin-top: 80px;
+  margin-left: 85px;
+}
+.maininfo
+{
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid #000; */
+  display: flex;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.info{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.infobox{
+  margin-top: 35px;
+}
+.photos
+{
+  width: 50%;
+  height: 500px;
+  background-image: url(./assets/CarModern.jpg);
+  background-size: cover;
+}
+.Faqsection{
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.Faqsection h1{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mainfoot
+{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  color: white;
+}
+.lfooter
+{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column; 
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.mainiconfoot{
+  display: flex;
+  flex-direction: column;
+}
+.iconfooter{
+  display: flex;
+  width: 100%;
+ 
+  position: relative;
+}
+.footicon{
+  display: flex;
+  padding-bottom: 40px;
+}
+.fa-solid
+{
+  
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+ 
+}
+.serviceslink{
+  padding-top: 100px;
+  padding-left: 200px;
+}
+.serviceslink ul{
+  width: 200px;
+
+}
+.serviceslink ul li
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.serviceslink ul li a{
+  text-decoration: dotted;
+  color: white;
+  padding-top: 20px;
+}
+.footsLink{
+  margin-top: 100px;
+  margin-left: 130px;
+}
+.footsLink h3{
+  margin-left: 30px;
+
+}
+.footend
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.registerapp
+{
+  text-align: center;
+  border: 1px solid #000;
+  padding: 30px;
+  width: 600px;
+  margin-left: 480px;
+  margin-top: 70px;
+}
+.registerapp input{
+  width: 400px;
+  height: 40px;
+  border: 1px solid #000;
+  border: radius 5px;
+
+}
+
+input{
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.registerapp input[type="submit"]
+{
+  background-color: blue;
+  color: white;
+}
+select{
+  width: 400px;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.loginforms{
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 30px;
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.loginforms input{
+  width: 400px;
+  height: 40px;
+  border: 1px solid #000;
+  border: radius 5px;
+
+}
+
+.loginforms input[type="submit"]
+{
+  background-color: blue;
+  color: white;
+}
+
+.aboutme{
+  width: 100%;
+  text-align: justify;
+  padding: 70px;
+}
+.aboutme img{
+  width: 500px;
+  height: 400px;
+  margin: 40px;
+  margin-left: 120px;
+}
+
+.admin{
+  display: flex;
+  height: 740px;
+}
+.sidebar{
+  width: 350px;
+  padding-top: 30px;
+  background-color: black;
+}
+.sidebar .nav-link{
+ 
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.rightsidebar {
+  position: relative;
+  width: 1350px;
+  height: 740px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.rightsidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/CarMechanic.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.sidebarheading p{
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 80px;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  font-weight:450;
+
+}
+.book{
+  border: 3px solid #000;
+  border-radius: 10px;
+  width: 700px;
+  height: 700px;
+  margin-left: 450px;
+  margin-top: 5px;
+  text-align: center;
+  padding-left: 5px;
+}
+.book input{
+  width: 400px;
+  height: 40px;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#patternsearch
+{
+  margin:20px;
+  margin-left: 900px;
+  /* margin-top: 50px; */
+  padding-left: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius:1px;
+}
+
+.serviceform{
+  width: 600px;
+  height: 400px;
+  border: 3px solid #000;
+  margin-top: 100px;
+  margin-left: 470px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+.serviceform input{
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+
+.spareparts{
+  border: 3px solid #000;
+  border-radius: 10px;
+  width: 700px;
+  height: 400px;
+  margin-left: 450px;
+  margin-top: 100px;
+  text-align: center;
+  padding-left: 5px;
+}
+.spareparts input{
+  width: 400px;
+  height: 40px;
+}
+
+.receipt{
+  
+    width: 600px;
+    height: 530px;
+    border: 3px solid #000;
+    margin-top: 60px;
+    margin-left: 470px;
+    padding-top: 40px;
+    border-radius: 10px;
+  }
+  .receipt input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    
+  }
+
+  .receiptsupdt{
+    /* border: 3px solid #020202; */
+  border-radius: 10px;
+  width: 700px;
+  height: 900px;
+  margin-left: 450px;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 5px;
+  }
+  .receiptsupdt input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    
+  }
+
+  .customerReceipt{
+
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 950px;
+
+
+  }
+
+  .topview{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .techButn{
+    width: 160px;
+    margin-top: 10px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+
+  }
+  .container
+  {
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+    
+  }
+  .contactsshow{
+    display: flex;
+  }
+  .rfooter{
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+  .paymentPhoto{
+    width: 600px;
+    height: 650px;
+    border: 1px solid #000;
+    margin-left: 480px;
+    /* margin-top: 30px; */
+    background-image: url(./assets/GooglePay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .updatecust{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .updatecust input{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+  }
+  
