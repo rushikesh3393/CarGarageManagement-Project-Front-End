@@ -29,19 +29,24 @@
   width: 100%;
   height: 650px;
   border: 1px solid #000;
-  background-image: url(./assets/Car.avif);
+  background-image: url(./assets/garage.jpg);
  background-repeat: no-repeat;
- background-size: cover;
+ background-size:cover;
+ opacity:0.9;
+ z-index: -1;
+ 
 }
 .headingAbout
 {
-  margin-left: 550px;
-  padding-top: 130px ;
+  /* margin-left: 500px; */
+  padding-top: 100px ;
+  text-align: center;
+
 }
 .headingAbout p{
-  font-size: 80px;
+  font-size: 90px;
   font-weight:900;
-  color: black;
+  color:black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .buttonsign
@@ -112,7 +117,6 @@ input{
 {
   width: 100%;
   height: 600px;
-  /* border: 1px solid #000; */
   display: flex;
   margin-top: 100px;
   padding-top: 50px;
@@ -339,9 +343,9 @@ select{
   border: 3px solid #000;
   border-radius: 10px;
   width: 700px;
-  height: 700px;
+  height: 600px;
   margin-left: 450px;
-  margin-top: 5px;
+  margin-top: 15px;
   text-align: center;
   padding-left: 5px;
 }
@@ -361,7 +365,7 @@ label {
 {
   margin:20px;
   margin-left: 900px;
-  /* margin-top: 50px; */
+  
   padding-left: 5px;
   width: 300px;
   height: 40px;
@@ -417,7 +421,7 @@ label {
   }
 
   .receiptsupdt{
-    /* border: 3px solid #020202; */
+   
   border-radius: 10px;
   width: 700px;
   height: 900px;
@@ -435,7 +439,7 @@ label {
 
   .customerReceipt{
 
-    /* border: 2px solid black; */
+   
     width: 700px;
     height: 950px;
 
@@ -446,7 +450,7 @@ label {
     width: 100%;
     height: 60px;
     display: flex;
-    /* border: 1px solid #000; */
+    
     margin-top: 50px;
     margin-bottom: 30px;
   }
@@ -460,7 +464,7 @@ label {
   }
   .container
   {
-    /* border: 1px solid #000; */
+   
     margin-top: 20px;
     
   }
@@ -476,7 +480,7 @@ label {
     height: 650px;
     border: 1px solid #000;
     margin-left: 480px;
-    /* margin-top: 30px; */
+   
     background-image: url(./assets/GooglePay.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -492,4 +496,432 @@ label {
     height: 40px;
     text-align: center;
   }
+  .hs h1{
+    text-align: center;
+    margin: 20px;
+  }
+ 
+
+  /* * {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar-nav {
+    margin-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    margin-left: 40px;
+  }
+  
+  .nav-link:hover {
+    background-color: darkolivegreen;
+    color: #000;
+  }
+  
+  .fa-brands {
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  
+  .firstView {
+    width: 100%;
+    height: 650px;
+    border: 1px solid #000;
+    background-image: url(./assets/Car.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .headingAbout {
+    text-align: center;
+    padding-top: 130px;
+  }
+  
+  .headingAbout p {
+    font-size: 80px;
+    font-weight: 900;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .buttonsign {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input {
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  #signbut {
+    color: white;
+    border-style: none;
+    background-color: black;
+  }
+  
+  .whychoose {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+  }
+  
+  .whychoose h1,
+  .whychoose h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .cards {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cards .card {
+    width: 270px;
+    height: 370px;
+    text-align: justify;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+                rgba(0, 0, 0, 0.07) 0px 2px 4px,
+                rgba(0, 0, 0, 0.07) 0px 4px 8px,
+                rgba(0, 0, 0, 0.07) 0px 8px 16px;
+  }
+  
+  .card h3 {
+    padding: 10px;
+  }
+  
+  .card p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .card .fa-solid {
+    margin-top: 80px;
+    margin-left: 85px;
+  }
+  
+  .maininfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 50px 0;
+  }
+  
+  .info,
+  .photos {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .photos {
+    background-image: url(./assets/CarModern.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .Faqsection {
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .mainfoot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+  }
+  
+  .lfooter,
+  .serviceslink,
+  .footsLink {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+  }
+  
+  .mainiconfoot,
+  .iconfooter,
+  .footicon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fa-solid {
+    margin: 5px 0;
+  }
+  
+  .serviceslink ul,
+  .footsLink ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .serviceslink ul li a {
+    text-decoration: dotted;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .footend {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .registerapp,
+  .loginforms,
+  .book,
+  .serviceform,
+  .spareparts,
+  .receipt,
+  .receiptsupdt {
+    max-width: 95%;
+    margin: 40px auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .registerapp input,
+  .loginforms input,
+  .book input,
+  .serviceform input,
+  .spareparts input,
+  .receipt input,
+  .receiptsupdt input,
+  select {
+    width: 90%;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .registerapp input[type="submit"],
+  .loginforms input[type="submit"] {
+    background-color: blue;
+    color: white;
+  }
+  
+  .aboutme {
+    width: 100%;
+    text-align: justify;
+    padding: 40px 20px;
+  }
+  
+  .aboutme img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .admin {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .sidebar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sidebar .nav-link {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    flex: 1 1 auto;
+  }
+  
+  .rightsidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .rightsidebar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/CarMechanic.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  
+  .sidebarheading p {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+  }
+  
+  #patternsearch {
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
+    margin: 20px auto;
+  }
+  
+  .customerReceipt {
+    width: 95%;
+    margin: 20px auto;
+  }
+  
+  .topview {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .techButn {
+    width: 160px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+  }
+  
+  .paymentPhoto {
+    width: 95%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    background-image: url(./assets/GooglePay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .updatecust {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .updatecust input {
+    width: 90%;
+    max-width: 400px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .navbar-nav {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .cards {
+      padding: 10px;
+    }
+  
+    .cards .card {
+      margin: 10px;
+    }
+  
+    .maininfo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info, .photos {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .headingAbout p {
+      font-size: 40px;
+    }
+  
+    .sidebar .nav-link {
+      font-size: 16px;
+    }
+  
+    .photos {
+      height: 300px;
+    }
+  
+    .paymentPhoto {
+      height: 300px;
+      background-size: contain;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .headingAbout p {
+      font-size: 28px;
+      padding: 0 10px;
+    }
+  
+    .sidebar {
+      flex-direction: column;
+    }
+  
+    .sidebar .nav-link {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .cards .card {
+      width: 90%;
+    }
+  
+    .footicon, .serviceslink ul li {
+      flex-direction: column;
+      align-items: center;
+    }
+  } */
+  
   

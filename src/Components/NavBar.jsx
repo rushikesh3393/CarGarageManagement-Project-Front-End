@@ -37,6 +37,7 @@ import CustomerViewAppointment from "./CustomerViewAppointment";
 import ViewCustomerReceipt from "./ViewCustomerReceipt";
 import UpdateCustomerAppointment from "./UpdateCustomerAppointment";
 import CancelCustomerAppointment from "./CancelCustomerAppointment";
+import History from "./History";
 
 
 
@@ -69,11 +70,14 @@ let NavBar = () => {
                 <NavLink to="/login" className="nav-link text-white">Login </NavLink>
                 <NavLink to="/verified" className="nav-link text-white"></NavLink>
                 
+                
               </div>
             </div>
-            <a href="https://wa.me/qr/VC5LEVH3ICUZG1" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-whatsapp text-white ms-3"></i></a>
-            <i className="fa-brands fa-instagram text-white ms-3"></i>
-            <i className="fa-brands fa-square-facebook text-white ms-3"></i>
+            <a href="https://wa.me/qr/VC5LEVH3ICUZG1" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp text-white ms-3"></i></a>
+            <a href="https://www.instagram.com/_rushikesh_2406/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram text-white ms-3"></i></a>
+            <a href="https://wa.me/qr/VC5LEVH3ICUZG1" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-square-facebook text-white ms-3"></i></a>
+           
+            
           </div>
         </nav>
 
@@ -128,6 +132,7 @@ let NavBar = () => {
           <Route path="/updatereceipt/:apid" element={<UpdateReceipt/>} />
           
           <Route path="/payment" element={<Payment/>} />
+          <Route path="/history" element={<History/>} />
         </Routes>
       </BrowserRouter>
     </>

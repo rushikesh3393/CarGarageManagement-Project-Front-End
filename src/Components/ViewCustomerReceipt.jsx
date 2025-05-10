@@ -65,6 +65,8 @@ let ViewCustomerReceipt = () => {
 
               <br/>
               <h1>RMOTORS Garage Services</h1><br/>
+              <hr/>
+              <br/><b>Address:</b><h6>Herwade colony behind shshu garden Jaysingpur </h6> <b>Contact:</b><h6>+91-7666138655</h6> <br/>
               <h4 style={{ textAlign: "center" }}>Receipt</h4>
               <hr /><br/>
               <table style={{ width: "100%", marginBottom: "20px" }}>
